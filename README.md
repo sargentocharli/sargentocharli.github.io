@@ -1,2 +1,2 @@
 # sargentocharli.github.io
-Segundo curso Desarrollo de Aplicaciones Weeb
+Segundo curso Desarrollo de Aplicaciones Web
