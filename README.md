@@ -1,2 +1,2 @@
 # sargentocharli.github.io
-Proyectos personales y Segundo curso de Desarrollo de Aplicaciones Web.
+Segundo curso Desarrollo de Aplicaciones Web

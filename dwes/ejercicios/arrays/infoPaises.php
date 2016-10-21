@@ -7,9 +7,9 @@ include '../../includes/header.php';
 include '../../includes/body.php';
 
 $pais = array(
-				"España" => array("Madrid", "Europa", "<img src='images/espanya.png'>"),
-				"Japón" => array("Tokio", "Asia", "<img src='images/japon.png'>"),
-				"Brasil" => array("Brasilia", "América del Sur", "<img src='images/brasil.png'>")
+				"España" => array("Madrid", "Europa", "<img src='imagenes/espanya.png'>"),
+				"Japón" => array("Tokio", "Asia", "<img src='imagenes/japon.png'>"),
+				"Brasil" => array("Brasilia", "América del Sur", "<img src='imagenes/brasil.png'>")
 				
 	);
 $numeroPaises = count($pais);

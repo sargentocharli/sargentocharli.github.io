@@ -4,9 +4,9 @@
   <title>DWES - Lucas Márquez Muñoz</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="../../../css/bootstrap.min.css">
+  <script src="../../../js/jquery.min.js"></script>
+  <script src="../../../js/bootstrap.min.js"></script>
   <style>
     /* Remove the navbar's default margin-bottom and rounded borders */ 
     .navbar {
@@ -31,15 +31,17 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <!--  <a class="navbar-brand" href="">Portfolio</a> -->
+      <a class="navbar-brand" href="https://github.com/sargentocharli">Github</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="../../index.php">Home</a></li>
-	      <li><a href="../../index.php">DWES</a></li>
-        <li><a href="../../../hlc/index.php">HLC</a></li>
+        <li class="active"><a href="../../../index.html">Home</a></li>
+        <li><a href="../../../dwecl/index.html">DWECL</a></li>
+        <li><a href="../../../dwes/index.html">DWES</a></li>
+        <li><a href="../../../diweb/index.html">DIWEB</a></li>
+        <li><a href="../../../hlc/index.html">HLC</a></li>
+        <li><a href="../../../java/index.html">JAVA</a></li>
         <li><a href="https://lumamu.blogspot.com">Blog</a></li>
-        <li><a href="../../../aboutMe/index.php">Contacto</a></li>
       </ul>     
     </div>
   </div>

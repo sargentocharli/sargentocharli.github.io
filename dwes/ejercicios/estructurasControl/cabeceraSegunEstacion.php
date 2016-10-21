@@ -18,17 +18,17 @@ $fechaActual = new DateTime();
 
 
 if($fechaActual >= $inicioPrimavera && $fechaActual < $inicioVerano) { // 80 es el 21 de marzo
-	echo "<img src=../../../primavera.jpg></img>";
+	echo "<img src=imagenes/primavera.jpg>";
 }
 	elseif ($fechaActual >= $inicioVerano && $fechaActual < $inicioOtono) { // 172 es el 21 de junio
-		echo "<img src=../../../otoño.jpg></img>";
+		echo "<img src=imagenes/verano.jpg>";
 	}
 	elseif ($fechaActual >= $inicioOtono && $fechaActual < $inicioInvierno) { // 265 es el 21 de septiembre
-		echo "<img src=../../../otoño.jpg></img>";
+		echo "<img src=imagenes/otono.jpg>";
 	}
 	
 else
-	echo "<img src=../../../invierno.bmp></img>";
+	echo "<img src=imagenes/invierno.bmp>";
 
 
 	
