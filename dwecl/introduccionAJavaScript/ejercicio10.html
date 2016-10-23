@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Ejercicio 10 - Lucas</title>
+		<script type="text/javascript">
+			
+		function palindromo(cadena) {			
+			var minusculas = cadena.toLowerCase();			
+			var arrayOriginal = minusculas.split("");				
+			var originalSinEspacios = "";
+
+			for(i in arrayOriginal) {
+				if(arrayOriginal[i] != " ") {
+					originalSinEspacios += arrayOriginal[i];
+				}
+			}
+
+			var arrayOriginalSinEspacios = originalSinEspacios.split("");
+			var arrayOriginalSinEspaciosAlReves = originalSinEspacios.split("").reverse();			
+			var sonIguales = true;
+			
+			for(i in arrayOriginalSinEspacios) {
+				if(arrayOriginalSinEspacios[i] != arrayOriginalSinEspaciosAlReves[i]) {		
+				return "No es un palíndromo";
+				}				
+				return "Es un palíndromo";
+			}
+		
+		}
+
+		var resultado = palindromo(prompt("Introduzca una frase"));
+		document.write(resultado);
+		</script>
+	</head>
+	<body>
+		<h1>Página creada por Lucas Márquez Muñoz.</h1>
+	</body>
+</html>

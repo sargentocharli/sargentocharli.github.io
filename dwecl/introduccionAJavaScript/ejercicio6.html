@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejercicio 6 - Lucas</title>
+</head>
+<body>
+	<script type="text/javascript">
+		//Comprobar si un DNI introducido es válido
+		var letras = ['T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'C', 'K', 'E', 'T'];
+		var numeroDNI = prompt("Introduzca solo el número del DNI");
+		var letraDNI = prompt("Introduzca solo la letra del DNI");
+		letraDNI = letraDNI.toUpperCase();
+
+		if(numeroDNI <0 || numeroDNI >99999999) {
+			alert("El número de dni introducido es erróneo.");
+		}
+		else {
+			var letraModuloDNI = letras[numeroDNI % 23];
+			if(letraModuloDNI != letraDNI) {
+				alert("El número y/o la letra del DNI introducidos no son correctos.");
+			}
+			else {
+				alert("DNI válido.");
+			}
+		}
+	</script>
+	<h1>Página creada por Lucas Márquez Muñoz.</h1>
+</body>
+</html>

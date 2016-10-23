@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejercicio 4 - Lucas</title>
+</head>
+<body>
+<script type="text/javascript">
+	var valores = [true, 5, false, "hola", "adios", 2];
+	
+	/*Para determinar cuál de los dos elementos de texto es mayor los comparamos 
+	y mostramos una alerta dependiendo del resultado de la comparación. Si sale true
+	"hola" es mayor que "adios"*/
+	var mayor = valores[3]>valores[4];
+	alert(mayor);
+
+	//Utilizando los booleanos para obtener true
+	var verdadero = valores[0] || valores[2];
+	alert(verdadero);
+
+	//Utilizando los booleanos para obtener false
+	var falso = valores[0] && valores[5];
+	alert(falso);
+
+	//Resultado de las cinco operaciones matemáticas
+	var suma = valores[1] + valores[5];
+	alert(suma);
+
+	var resta = valores[1] - valores[5];
+	alert(resta);
+
+	var multiplicacion = valores[1] * valores[5];
+	alert(multiplicacion);
+
+	var division = valores[1] / valores[5];
+	alert(division);
+
+	var modulo = valores[1] % valores[5];
+	alert(modulo);
+
+</script>
+<h1>Página creada por Lucas Márquez Muñoz.</h1>
+</body>
+</html>
