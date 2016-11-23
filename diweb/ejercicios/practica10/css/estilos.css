@@ -1,0 +1,151 @@
+#canvas1 {
+	
+}
+
+#canvas2 {
+	
+}
+
+
+#web {
+	
+	background-color: #A9A09D;
+	text-align: center;	
+	box-shadow: 3px 10px 5px #282729;	
+} 
+header {	
+	
+}
+
+#banner {
+	display: block;
+	text-align: center;
+	padding: 15px 15px;
+	background-color: #282729;
+}
+
+#banner>img {
+	background-color: #663702;	
+
+}
+
+nav {
+	background: url("fondo.png");
+	background-repeat: repeat;	
+	text-align: center;
+	border: 1px solid;
+}
+nav>ul {
+	list-style: none;	
+	padding: 5px;
+}
+
+nav>ul>li {
+	background-color: #43B929;
+	display: inline-block;
+	width: 200px;
+	cursor: pointer;
+	border: 1px solid;
+	box-shadow: 3px 3px 0px #9A6D38;	
+}
+
+nav>ul>li:hover{	
+	transform: scale(1.01,1.01);
+}
+
+body {
+	background-color: #282729;
+
+}
+
+#principal {
+	background: url("fondo.png");
+	background-repeat: repeat;	
+	border: 1px solid;
+}
+
+main {
+	display: inline-block;
+	width: 75%;	
+	padding-left: 10px;
+	vertical-align: top;	
+
+}
+
+main section {
+	text-align: center;	
+}
+
+p {
+	text-align: left;
+}
+
+aside {
+	padding-left: 1%;
+	display: inline-block;
+	width: 15%;
+	padding-right: 2%;
+	min-height: 450px;
+	min-width: 250px;
+	vertical-align: top;	
+}
+
+h3 {
+	background-color: #43B929;
+}
+
+aside section {
+	background-color: #9A6D38;
+}
+
+aside section img {
+	margin-top: -5px;
+	margin-bottom: 15px;
+	width: 80px;
+	background-color: white;
+	border: 1px solid;
+}
+
+aside section img:hover {
+	transform: scale(1.01,1.01);
+}
+
+form {
+	width: 185px;
+	
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+
+label {
+	text-align: center;
+}
+
+input:focus:invalid {
+	box-shadow: 0px 0px 10px red;
+}
+
+textarea {
+
+}
+
+textarea:focus:invalid {
+	box-shadow: 0px 0px 10px red;
+}
+
+
+article {
+	background-color: #9A6D38;
+	margin: 1px;
+}
+
+article header {
+	background-color: #43B929;
+}
+
+footer {
+	background-color: #9A6D38;
+	display: block;
+	text-align: center;
+	border: 1px solid;
+}
