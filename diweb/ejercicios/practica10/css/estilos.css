@@ -78,8 +78,7 @@ main section {
 
 p {
 	text-align: left;
-	padding: 5px;
-	padding-top: 0px;
+	padding: 5px 5px 0px;	
 }
 
 aside {
