@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+    <meta charset="UTF-8">
+    <title>Lucas Márquez Muñoz</title>
+    <link rel="stylesheet" href="css/normalize.css">    
+    <link rel="stylesheet" href="css/estiloInfo.css">    
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script> 
+    <script type="text/javascript" src="js/buscar.js"></script>   
+    <script type="text/javascript" src="js/info.js"></script>
+</head>
+<body>
+<noscript><h3>Tu navegador no admite JavaScript</h3></noscript>
+<header>
+    <h1>Casas Rurales</h1>
+</header>
+<nav>
+    <ul>
+        <li><a href="principal.html">Inicio</a></li>
+        <li><a href="#">Casas</a></li>
+        <li><a href="#">Contacto</a></li>
+        <li id="botonDesplegarAside">
+            <input type="button" value="☰" id="desplegarAside">
+        </li>
+    </ul>
+</nav>
+<div id="principal">
+    <main>
+        <aside>
+            <div id="contenidoAside">
+                <h2>Búsqueda Avanzada</h2>
+                <ul>
+                    <li><label>Localidad </label><input type="text"/></li>
+                    <li><label>Precio mínimo</label><input type="number"/></li>
+                    <li><label>Precio máximo<input type="number"/></li>
+                    <li><label>Habitaciones </label><input type="number"/></li>                
+                    <li><button class="botonBuscar">Buscar</a></li></button>
+                </ul>
+            </div>
+        </aside>
+        <section>
+            <article>
+                <div>
+                        <div id="imagenCasa">
+                            
+                        </div>
+                        
+                    </div>
+                    <div id="datosCasa">
+                        
+                        <h4 id="localidadCasa"></h4>
+                        <span id="habitacionesCasa"></span>
+                        <span id="precioCasa"></span>
+                        <span id="descripcionCasa"></span>
+                        <br/><br/>                         
+                    </div>
+                    
+                    <h2>Datos para reservar</h2>
+                    <form method="post" action="index.html">
+                    <p><label class="label">Nombre </label><input type="text" required></p>
+                    <p><label class="label">Apellidos </label><input type="text" required></p>
+                    <p><label class="label">Correo </label><input type="email" required></p>
+                    <p><label class="label">Teléfono </label><input type="tel" required></p>
+                    <p><label class="label">Fecha Entrada </label><input type="date" required></p>
+                    <p><label class="label">Fecha Salida </label><input type="date" required></p>
+                    <p><label class="label">Nº Personas </label><input type="number" required></p>
+                </form>
+                <div id="centrarBoton">
+                    <input type="submit" action="reservar.html" value="Reservar" class="botonReservar">
+                    </div>
+                </div> 
+
+            </article>
+
+        </section>
+    </main>
+</div>
+<footer>
+    <h4><p>Página hecha por Lucas Márquez Muñoz</p></h4> 
+</footer>

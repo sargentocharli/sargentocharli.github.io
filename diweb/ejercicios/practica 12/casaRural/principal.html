@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lucas Márquez Muñoz</title>
+    <link rel="stylesheet" href="css/normalize.css">    
+    <link rel="stylesheet" href="css/estilo.css">
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>    
+    <script type="text/javascript" src="js/buscar.js"></script>
+    <script type="text/javascript" src="js/home.js"></script>
+</head>
+<body>
+<noscript>
+    Esta página utiliza JavaScript para funcionar correctamente.
+</noscript>
+<header>
+    <h1>Casas Rurales</h1>
+</header>
+<nav>
+    <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Casas</a></li>
+        <li><a href="#">Contacto</a></li>        
+        <li id="botonDesplegarAside">
+            <input type="button" value="☰" id="desplegarAside">
+        </li>
+    </ul>
+</nav>
+<div id="principal">
+	<aside>
+        <div id="contenidoAside">
+            <h2>Búsqueda Avanzada</h2>
+            <ul>
+                <li><label>Localidad </label><input type="text"/></li>
+                <li><label>Precio mínimo</label><input type="number"/></li>
+                <li><label>Precio máximo<input type="number"/></li>
+                <li><label>Habitaciones </label><input type="number"/></li>                
+                <li><button class="botonBuscar">Buscar</a></li></button>
+            </ul>
+        </div>
+    </aside>
+    <main>
+        <section>
+            <article>
+                <div class="foto">                    
+                        <img src="imagenes/1.jpg">                    
+                </div>
+                <div class="cuerpo">
+                    <p><label>Dirección:</label> Al final de los pinos</p>
+
+                    <p><label>Nº Habitaciones:</label> 10</p>
+
+                    <p><label>Precio:</label> 40€ persona/noche</p>
+                </div>
+                <div class="reserva">
+                    <a href="info.html">
+                        <button class="botonReservar" id="casa1">Reserva</button>
+                    </a>
+                </div>
+            </article>
+            <article>
+                <div class="foto">
+                    
+                        <img src="imagenes/2.jpg">
+                    
+                </div>
+                <div class="cuerpo">
+                    <p><label>Dirección:</label> En medio del prado, s/n</p>
+
+                    <p><label>Nº Habitaciones:</label> 2</p>
+
+                    <p><label>Precio:</label> 25€ persona/noche</p>
+                </div>
+                <div class="reserva">
+                    <a href="info.html">
+                        <button class="botonReservar" id="casa2">Reserva</button>
+                    </a>
+                </div>
+            </article>
+            <article>
+                <div class="foto">
+                    
+                        <img src="imagenes/3.jpg">
+                    
+                </div>
+                <div class="cuerpo">
+                    <p><label>Dirección:</label> Sujetando el cartel azul</p>
+
+                    <p><label>Nº Habitaciones:</label> 2</p>
+
+                    <p><label>Precio:</label> 19€ persona/noche</p>
+                </div>
+                <div class="reserva">
+                    <a href="info.html">
+                        <button class="botonReservar" id="casa3">Reserva</button>
+                    </a>
+                </div>
+            </article>
+            <article>
+                <div class="foto">
+                    
+                        <img src="imagenes/4.jpg">
+                    
+                </div>
+                <div class="cuerpo">
+                    <p><label>Dirección:</label> Orilla izquierda</p>
+
+                    <p><label>Nº Habitaciones:</label> 4</p>
+
+                    <p><label>Precio:</label> 40€ persona/noche</p>
+                </div>
+                <div class="reserva">
+                    <a href="info.html">
+                        <button class="botonReservar" id="casa4">Reserva</button>
+                    </a>
+                </div>
+            </article>
+            <article>
+                <div class="foto">
+                    
+                        <img src="imagenes/5.jpg">
+                    
+                </div>
+                <div class="cuerpo">
+                    <p><label>Dirección:</label> Escondida detrás del árbol</p>
+
+                    <p><label>Nº Habitaciones:</label> 1</p>
+
+                    <p><label>Precio:</label> 27€ persona/noche</p>
+                </div>
+                <div class="reserva">
+                    <a href="info.html">
+                        <button class="botonReservar" id="casa5">Reserva</button>
+                    </a>
+                </div>
+            </article>
+            <article>
+                <div class="foto">
+                    
+                        <img src="imagenes/8.jpg">
+                    
+                </div>
+                <div class="cuerpo">
+                    <p><label>Dirección:</label> Delante tuya</p>
+
+                    <p><label>Nº Habitaciones:</label> 5</p>
+
+                    <p><label>Precio:</label> 32€ persona/noche</p>
+                </div>
+                <div class="reserva">
+                    <a href="info.html"><button class="botonReservar" id="casa6">Reserva</button></a>
+                </div>
+            </article>
+            <article>
+                <div class="foto">
+                    
+                        <img src="imagenes/7.jpg">
+                    
+                </div>
+                <div class="cuerpo">
+                    <p><label>Dirección:</label> Detrás de la valla</p>
+
+                    <p><label>Nº Habitaciones:</label> 1</p>
+
+                    <p><label>Precio:</label> 28€ persona/noche</p>
+                </div>
+                <div class="reserva">
+                    <a href="info.html">
+                        <button class="botonReservar" id="casa7">Reserva</button>
+                    </a>
+                </div>
+            </article>
+            <article>
+                <div class="foto">
+                    
+                        <img src="imagenes/8.jpg">
+                    
+                </div>
+                <div class="cuerpo">
+                    <p><label>Dirección:</label> Delante tuya de nuevo</p>
+
+                    <p><label>Nº Habitaciones:</label> 5</p>
+
+                    <p><label>Precio:</label> 36€ persona/noche</p>
+                </div>
+                <div class="reserva">
+                    <a href="info.html">
+                        <button class="botonReservar" id="casa8">Reserva</button>
+                    </a>
+                </div>
+            </article>
+            <article>
+                <div class="foto">
+                    
+                        <img src="imagenes/9.jpg">
+                    
+                </div>
+                <div class="cuerpo">
+                    <p><label>Dirección:</label> Lo único que no está blanco</p>
+
+                    <p><label>Nº Habitaciones:</label> 1</p>
+
+                    <p><label>Precio:</label> 19€ persona/noche</p>
+                </div>
+                <div class="reserva">
+                    <a href="info.html">
+                        <button class="botonReservar" id="casa9">Reserva</button>
+                    </a>
+                </div>
+            </article>
+        </section>
+    </main>    
+</div>
+<footer>    
+        <h4><p>Página hecha por Lucas Márquez Muñoz</p></h4>   
+</footer>
+</body>
+</html>
