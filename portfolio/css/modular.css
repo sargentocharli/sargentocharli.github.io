@@ -1,0 +1,137 @@
+*{
+	margin: 0px;
+}
+html, body {	
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+}
+
+#stars {
+	height: 100%;
+	width: 100%;	
+	background: url('../imagenes/stars.gif') no-repeat;
+	background-size: cover;
+	*background-position: 0 -50px;	
+}
+
+#cockpit {
+	height: 100%;
+	width: 100%;
+	background: url('../imagenes/cockpit.png') no-repeat center;
+		
+	background-size: 100% 100%;
+	
+	
+}
+
+#cabinaSuperior {		
+	height: 11%;
+	background: url('../imagenes/cabinaSuperior.png') no-repeat;	
+	background-size: 100% 100%;	
+}
+
+#central {
+
+	display: flex;
+	flex-flow: row wrap;
+	height: 60%;
+	width: 100%;	
+}
+
+#cabinaIzquierda {
+	margin-left: -1px;
+
+	flex-grow: 1;	
+	height: 100%;	
+	background: url('../imagenes/cabinaIzquierda2.png') no-repeat;
+	background-size: 100% 100%;	
+}
+
+#monitorCentral {
+	flex-grow: 8;	
+	align-self: flex-start;
+	height: 100%;	
+	background: url('../imagenes/monitorCentral.png') no-repeat center center;	
+	background-size: 100% 100%;
+}
+
+#cabinaDerecha {
+	
+	margin-right: 0.25px;
+	flex-grow: 1;		
+	height: 100%;	
+	background: url('../imagenes/cabinaDerecha2.png') no-repeat;	
+	background-size: 100% 100%;
+}
+
+
+#cabinaInferior {
+	height: 10%;	
+	background: url('../imagenes/cabinaInferior.png') no-repeat;	
+	background-size: 100% 100%;
+}
+
+#panelControl {
+	height: 19%;	
+	background: url('../imagenes/panelControl.png') no-repeat;	
+	background-size: 100% 100%;
+	text-align: center;
+}
+
+#botonIzquierdo {
+	display: inline-block;
+	
+	position: relative;
+
+	height: 50px;
+	width: 50px;
+	margin-left: 1em;
+	margin-top: 1em;
+	background: url('../imagenes/es.png');
+	background-size: 50px 50px;
+	float: left;
+}
+
+nav{
+	display: inline-block;	
+	padding: 2px;
+	text-align: center;
+}
+
+nav>ul{
+	list-style: none;
+	margin-top: 2em;
+	
+	padding: 0;
+}
+
+nav>ul>li{
+	display: inline-block;
+	width: 120px;
+	margin-left: 1em;
+	margin-right: 1em;	
+	color: white;
+	background-color: #333333;
+	border: 1px outset #000000;
+	box-shadow: 2px 2px 5px #111111;
+	cursor:pointer;
+	padding: 2px;
+}
+
+nav>ul>li:hover{
+	box-shadow: none;
+	transform: scale(0.95, 0.95);
+}
+
+#botonDerecho {
+	display: inline-block;
+	position: relative;
+	height: 50px;
+	width: 50px;
+	margin-right: 1em;		
+	margin-top: 1em;
+	background: url('../imagenes/uk.png');
+	background-size: 50px 50px;
+	float: right;
+}
