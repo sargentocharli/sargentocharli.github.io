@@ -1,0 +1,403 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html, body {	
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+}
+
+#stars {
+	height: 100%;
+	width: 100%;	
+	background: url('../imagenes/stars.gif') no-repeat;
+	background-size: cover;
+	*background-position: 0 -60px;
+	z-index: 0;
+}
+
+#cockpit {
+	height: 100%;
+	width: 100%;
+	background: url('../imagenes/cockpit.png') no-repeat center;		
+	background-size: 100% 100%;
+	z-index: 1;
+	
+}
+
+#cabinaSuperior {		
+	height: 11%;
+	background: url('../imagenes/cabinaSuperior.png') no-repeat;	
+	background-size: 100% 100%;	
+}
+
+#central {
+	display: flex;
+	flex-flow: row wrap;
+	height: 60%;
+	width: 100%;	
+}
+
+#cabinaIzquierda {
+	margin-left: -1px;
+	flex-grow: 1;	
+	height: 100%;	
+	background: url('../imagenes/cabinaIzquierda2.png') no-repeat;
+	background-size: 100% 100%;	
+}
+
+#monitorCentral {
+	position: relative;
+	z-index: 1000;		
+	height: 100%;	
+	background: url('../imagenes/monitorCentral.png') no-repeat center center;	
+	background-size: 100% 100%;
+	z-index: 2;
+}
+
+#contenidoMonitor {
+	position: relative;
+	flex-grow: 8;	
+	align-self: flex-start;
+	z-index: 3;
+	background: url('../imagenes/estatica.gif') center center;
+	*width: 100%;
+	height: 100%;
+
+}
+
+#monitorVacio {
+	position: relative;
+	flex-grow: 8;		
+	z-index: 10;
+	background: url('../imagenes/monitorCentral.png') no-repeat center center;
+	background-size: 100% 100%;
+	height: 100%;
+	
+
+}
+
+
+
+#contenidoMonitorPrincipal {
+	display: none;
+	position: absolute;
+	flex-grow: 8;	
+	align-self: flex-start;
+	z-index: 4;
+	*background: url('../imagenes/blanco.png');
+	width: 100%;
+	height: 100%;	
+	*margin: 3em;
+	
+}
+
+#fotoPrincipal {
+	display: inline-block;
+	margin-top: 2.5em;
+	margin-left: 2.5em;
+	background: url('../imagenes/yo.jpg') no-repeat;	
+	background-size: contain;
+	width: 40%;
+	height: 40%;
+	z-index: 1;
+}
+
+#informacionPrincipal {
+	
+	margin: 1em 2.5em 1em;
+	
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+h3 {
+	text-align: center;
+}
+
+#fotoPrincipal, #redesSociales {
+	display: inline-block;
+
+}
+
+#redesSociales {
+	vertical-align: top;
+	margin-top: 3em;
+}
+
+#twitter {
+	background: url('../imagenes/twitter.png') no-repeat center center;	
+	background-size: contain;
+	width: 3em;
+	height: 3em;
+	*z-index: 100;
+}
+
+#twitter:hover {
+	border: none;
+	box-shadow: none;
+	transform: scale(0.95, 0.95);
+	*z-index: 100;
+}
+
+
+#github {
+	background: url('../imagenes/github.png') no-repeat center center;	
+	background-size: contain;
+	width: 3em;
+	height: 3em;
+	
+}
+
+#github:hover {
+	border: none;
+	box-shadow: none;
+	transform: scale(0.95, 0.95);
+	*z-index: 100;
+}
+
+#linkedin {
+	background: url('../imagenes/linkedin.png') no-repeat center center;	
+	background-size: contain;
+	width: 3em;
+	height: 3em;
+	
+}
+
+#linkedin:hover {
+	border: none;
+	box-shadow: none;
+	transform: scale(0.95, 0.95);
+	*z-index: 100;
+}
+
+#contenidoMonitorSobreMi {
+	display: none;
+	position: absolute;
+	flex-grow: 8;	
+	align-self: flex-start;
+	z-index: 4;
+	background: url('../imagenes/MonitorSobreMi.png') no-repeat center center;
+	width: 100%;
+	height: 100%;
+}
+
+#contenidoMonitorProyectos {
+	display: none;
+	position: absolute;
+	flex-grow: 8;	
+	align-self: flex-start;
+	z-index: 3;
+	*background: url('../imagenes/monitorProyectos.png') no-repeat center center;
+	width: 100%;
+	height: 100%;	
+	margin-top: 1.4em;
+	margin-left: 1.5em;	
+}
+
+#proyecto1 {
+	display: inline-block;	
+background: url('../imagenes/proyecto1.png') no-repeat center center;	
+background-size: cover;
+width: 31%;
+height: 44%;
+border: 1px solid black;
+overflow: hidden;
+white-space: nowrap;
+}
+
+#proyecto2 {
+	display: inline-block;	
+background: url('../imagenes/proyecto2.png') no-repeat center center;	
+background-size: cover;
+width: 31%;
+height: 44%;
+border: 1px solid black;
+overflow: hidden;
+white-space: nowrap;
+}
+
+#proyecto3 {
+	display: inline-block;	
+background: url('../imagenes/proyecto3.png') no-repeat center center;	
+background-size: cover;
+width: 31%;
+height: 44%;
+border: 1px solid black;
+overflow: hidden;
+white-space: nowrap;
+}
+
+#proyecto4 {
+	display: inline-block;	
+background: url('../imagenes/proyecto4.png') no-repeat center center;	
+background-size: cover;
+width: 31%;
+height: 44%;
+border: 1px solid black;
+overflow: hidden;
+white-space: nowrap;
+margin-top: -6px;
+}
+
+#proyecto5 {
+	display: inline-block;	
+background: url('../imagenes/proyecto5.png') no-repeat center center;	
+background-size: cover;
+width: 31%;
+height: 44%;
+border: 1px solid black;
+overflow: hidden;
+white-space: nowrap;
+margin-top: -6px;
+}
+
+#proyecto6 {
+	display: inline-block;	
+background: url('../imagenes/proyecto6.png') no-repeat center center;	
+background-size: cover;
+width: 31%;
+height: 44%;
+border: 1px solid black;
+overflow: hidden;
+white-space: nowrap;
+margin-top: -6px;
+}
+
+#contenidoMonitorContacto {
+	display: none;
+	position: absolute;
+	flex-grow: 8;	
+	align-self: flex-start;
+	z-index: 4;
+	background: url('../imagenes/monitorContacto.png') no-repeat center center;
+	width: 100%;
+	height: 100%;	
+}
+
+#cabinaDerecha {	
+	margin-right: 0.25px;
+	flex-grow: 1;		
+	height: 100%;	
+	background: url('../imagenes/cabinaDerecha2.png') no-repeat;	
+	background-size: 100% 100%;
+}
+
+
+#cabinaInferior {
+	height: 10%;	
+	background: url('../imagenes/cabinaInferior.png') no-repeat;	
+	background-size: 100% 100%;
+}
+
+#panelControl {
+	height: 19%;	
+	background: url('../imagenes/panelControl.png') no-repeat;	
+	background-size: 100% 100%;
+	text-align: center;
+}
+
+#botonRojo {
+	display: inline-block;	
+	position: relative;
+	float: left;	
+	height: 50px;
+	width: 50px;
+	margin-left: 2em;
+	margin-top: 1em;
+	background: url('../imagenes/botonRojo.png');
+	background-size: 50px 50px;
+	*border: 1px outset #000000;
+	border-radius: 15px;
+	box-shadow: 2px 2px 5px #111111;
+}
+
+#botonRojo:hover {
+	border: none;
+	box-shadow: none;
+	transform: scale(0.95, 0.95);
+}
+
+nav {
+	vertical-align: middle;
+	display: inline-block;	
+	padding: 2px;
+	text-align: center;
+}
+
+nav>ul {
+	list-style: none;
+	margin-top: 0.7em;	
+	padding: 0;
+}
+
+nav>ul>li {
+	display: inline-block;
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	margin-left: 1em;
+	margin-right: 1em;		
+	color: white;
+	background-color: #333333;
+	border: 1px outset #000000;
+	box-shadow: 2px 2px 5px #111111;
+	cursor:pointer;
+	padding: 2px;
+	line-height: 300%;
+
+}
+
+nav>ul>li>a {
+	margin-top: 10px;
+}
+nav>ul>li:hover {
+	box-shadow: none;
+	transform: scale(0.95, 0.95);
+}
+
+#botonIzquierdo {
+	display: inline-block;	
+	position: relative;
+	height: 50px;
+	width: 50px;
+	margin-right: 2em;
+	margin-top: 1em;
+	background: url('../imagenes/es.png');
+	background-size: 50px 50px;
+	float: right;
+	border-radius: 50px;	
+	*border: 1px outset #000000;
+	box-shadow: 2px 2px 5px #111111;
+}
+
+#botonIzquierdo:hover {
+	border: none;
+	box-shadow: none;
+	transform: scale(0.95, 0.95);
+}
+
+#botonDerecho {
+	display: inline-block;
+	position: relative;
+	height: 50px;
+	width: 50px;
+	margin-right: 2em;		
+	margin-top: 1em;
+	background: url('../imagenes/uk.png');
+	background-size: 50px 50px;
+	float: right;
+	border-radius: 50px;		
+	*border: 1px outset #000000;
+	box-shadow: 2px 2px 5px #111111;
+}
+
+#botonDerecho:hover {
+	border: none;
+	box-shadow: none;
+	transform: scale(0.95, 0.95);
+}
