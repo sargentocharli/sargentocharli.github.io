@@ -101,6 +101,7 @@ html, body {
 	background-size: contain;
 	width: 40%;
 	height: 40%;
+	z-index: 1;
 }
 
 #informacionPrincipal {
@@ -152,12 +153,26 @@ h3 {
 	
 }
 
+#github:hover {
+	border: none;
+	box-shadow: none;
+	transform: scale(0.95, 0.95);
+	*z-index: 100;
+}
+
 #linkedin {
 	background: url('../imagenes/linkedin.png') no-repeat center center;	
 	background-size: contain;
 	width: 3em;
 	height: 3em;
 	
+}
+
+#linkedin:hover {
+	border: none;
+	box-shadow: none;
+	transform: scale(0.95, 0.95);
+	*z-index: 100;
 }
 
 #contenidoMonitorSobreMi {
@@ -308,6 +323,7 @@ margin-top: -6px;
 }
 
 nav {
+	vertical-align: middle;
 	display: inline-block;	
 	padding: 2px;
 	text-align: center;

@@ -6,17 +6,23 @@
 	let botonContacto;
 	let botonRojo;
 
-	let mostrarPrincipal = function() {
+	let mostrarPrincipal = function() {			
+
+		document.getElementById("contenidoMonitor").style.height = "100%";
 		document.getElementById("contenidoMonitor").style.background = "url('imagenes/blanco.png')";
-		document.getElementById("contenidoMonitorPrincipal").style.display = "inline-block";		
 		document.getElementById("contenidoMonitorSobreMi").style.display = "none";
 		document.getElementById("contenidoMonitorProyectos").style.display = "none";
 		document.getElementById("contenidoMonitorContacto").style.display = "none";
+		document.getElementById("contenidoMonitorPrincipal").style.display = "inline-block";	
+		document.getElementById("monitorVacio").style.display = "inline-block";
+		
+
 
 
 	}
 
 	let mostrarSobreMi = function() {
+		document.getElementById("contenidoMonitor").style.height = "100%";
 		document.getElementById("contenidoMonitorPrincipal").style.display = "none";
 		document.getElementById("contenidoMonitorSobreMi").style.display = "none";
 		document.getElementById("contenidoMonitorProyectos").style.display = "none";
@@ -25,14 +31,16 @@
 	}
 
 	let mostrarProyectos = function() {
+		document.getElementById("contenidoMonitor").style.height = "100%";
 		document.getElementById("contenidoMonitorPrincipal").style.display = "none";
 		document.getElementById("contenidoMonitorSobreMi").style.display = "none";
-		document.getElementById("contenidoMonitorProyectos").style.display = "none";
+		document.getElementById("contenidoMonitorProyectos").style.display = "inline-block";
 		document.getElementById("contenidoMonitorContacto").style.display = "none";
 		document.getElementById("contenidoMonitor").style.display = "inherit";
 	}
 
 	let mostrarCV = function() {
+		document.getElementById("contenidoMonitor").style.height = "100%";
 		document.getElementById("contenidoMonitorPrincipal").style.display = "none";
 		document.getElementById("contenidoMonitorSobreMi").style.display = "none";
 		document.getElementById("contenidoMonitorProyectos").style.display = "none";
@@ -41,6 +49,7 @@
 	}
 
 	let mostrarContacto = function() {
+		document.getElementById("contenidoMonitor").style.height = "100%";
 		document.getElementById("contenidoMonitorPrincipal").style.display = "none";
 		document.getElementById("contenidoMonitorSobreMi").style.display = "none";
 		document.getElementById("contenidoMonitorProyectos").style.display = "none";
