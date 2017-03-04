@@ -181,9 +181,34 @@ h3 {
 	flex-grow: 8;	
 	align-self: flex-start;
 	z-index: 4;
-	background: url('../imagenes/MonitorSobreMi.png') no-repeat center center;
 	width: 100%;
 	height: 100%;
+}
+
+#fotoSobreMi {
+	display: inline-block;
+	margin-top: 2.5em;
+	margin-left: 2.5em;
+	background: url('../imagenes/yo.jpg') no-repeat;	
+	background-size: contain;
+	width: 40%;
+	height: 40%;
+	z-index: 1;
+}
+
+#informacionSobreMi {
+	
+	margin: 1em 2.5em 1em;
+	
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+h3 {
+	text-align: center;
 }
 
 #contenidoMonitorProyectos {
@@ -210,6 +235,35 @@ overflow: hidden;
 white-space: nowrap;
 }
 
+#proyecto1:hover {	
+	transform: scale(1.05,1.05);
+	transition-duration: 1s;
+}
+
+#proyecto2:hover {	
+	transform: scale(1.05,1.05);
+	transition-duration: 1s;
+}
+
+#proyecto3:hover {	
+	transform: scale(1.05,1.05);
+	transition-duration: 1s;
+}
+
+#proyecto4:hover {	
+	transform: scale(1.05,1.05);
+	transition-duration: 1s;
+}
+
+#proyecto5:hover {	
+	transform: scale(1.05,1.05);
+	transition-duration: 1s;
+}
+
+#proyecto6:hover {	
+	transform: scale(1.05,1.05);
+	transition-duration: 1s;
+}
 #proyecto2 {
 	display: inline-block;	
 background: url('../imagenes/proyecto2.png') no-repeat center center;	
@@ -268,15 +322,60 @@ white-space: nowrap;
 margin-top: -6px;
 }
 
+
+#contenidoMonitorCV {
+	display: none;
+	position: absolute;
+	flex-grow: 8;	
+	align-self: flex-start;
+	z-index: 4;
+	width: 100%;
+	height: 100%;	
+}
+
+
+#fotoCV {
+	display: inline-block;
+	margin-top: 2.5em;
+	margin-left: 2.5em;
+	background: url('../imagenes/yo.jpg') no-repeat;	
+	background-size: contain;
+	width: 40%;
+	height: 40%;
+	z-index: 1;
+}
+
+#informacionCV {
+	
+	margin: 1em 2.5em 1em;
+	
+}
+
 #contenidoMonitorContacto {
 	display: none;
 	position: absolute;
 	flex-grow: 8;	
 	align-self: flex-start;
 	z-index: 4;
-	background: url('../imagenes/monitorContacto.png') no-repeat center center;
 	width: 100%;
 	height: 100%;	
+}
+
+#fotoContacto {
+	display: inline-block;
+	margin-top: 2.5em;
+	margin-left: 2.5em;
+	background: url('../imagenes/yo.jpg') no-repeat;	
+	background-size: contain;
+	width: 40%;
+	height: 40%;
+	z-index: 1;
+}
+
+#informacionContacto {
+	
+	margin: 1em 2.5em 1em;
+	
 }
 
 #cabinaDerecha {	
@@ -400,4 +499,66 @@ nav>ul>li:hover {
 	border: none;
 	box-shadow: none;
 	transform: scale(0.95, 0.95);
+}
+
+
+
+@media (min-width: 1110px) {
+	#fotoPrincipal {
+	margin-top: 3.5em;
+	margin-left: 3.5em;
+	
+	}
+
+	#informacionPrincipal {	
+		margin: 1.5em 3em 1.5em;
+		
+	}
+
+	p {
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+
+	#redesSociales {
+		margin-top: 4em;
+	}
+
+	#contenidoMonitorProyectos {	
+	margin-top: 2em;
+	margin-left: 2.2em;	
+	}
+
+	#fotoSobreMi {
+	margin-top: 3.5em;
+	margin-left: 3.5em;
+	
+	}
+
+	#informacionSobreMi {	
+		margin: 1.5em 3em 1.5em;
+		
+	}
+
+	#fotoCV {
+	margin-top: 3.5em;
+	margin-left: 3.5em;
+	
+	}
+
+	#informacionCV {	
+		margin: 1.5em 3em 1.5em;
+		
+	}
+
+	#fotoContacto {
+	margin-top: 3.5em;
+	margin-left: 3.5em;
+	
+	}
+
+	#informacionContacto {	
+		margin: 1.5em 3em 1.5em;
+		
+	}
 }
