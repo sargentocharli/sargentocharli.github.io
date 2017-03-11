@@ -40,7 +40,7 @@
 
 	let mostrarProyectos = function() {
 		document.getElementById("contenidoMonitor").style.height = "100%";
-		document.getElementById("contenidoMonitor").style.background = "url('imagenes/blanco.png')";
+		document.getElementById("contenidoMonitor").style.background = "url('imagenes/negro.png')";
 		document.getElementById("contenidoMonitorPrincipal").style.display = "none";
 		document.getElementById("contenidoMonitorSobreMi").style.display = "none";
 		document.getElementById("contenidoMonitorProyectos").style.display = "inline-block";
