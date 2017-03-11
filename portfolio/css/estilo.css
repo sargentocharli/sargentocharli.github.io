@@ -17,6 +17,10 @@ html, body {
 	margin: 0px;
 }
 
+#orientacion {
+	display: none;
+}
+
 a {
 	color: white;
 }
@@ -487,6 +491,15 @@ nav>ul>li:hover {
 	border: none;
 	box-shadow: none;
 	transform: scale(0.95, 0.95);
+}
+
+@media (orientation: portrait) {
+	#stars {
+		display: none;
+	}
+	#orientacion {
+		display: block;
+	}
 }
 
 @media (min-height: 500px) {
