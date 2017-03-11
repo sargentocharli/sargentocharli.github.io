@@ -395,7 +395,7 @@ h3 {
 	height: 50px;
 	width: 50px;
 	margin-left: 0.8em;
-	margin-top: 2em;
+	margin-top: 0.5em;
 	background: url('../imagenes/botonRojo.png');
 	background-size: 50px 50px;
 	*border: 1px outset #000000;
@@ -418,7 +418,7 @@ nav {
 
 nav>ul {
 	list-style: none;
-	margin-top: 2em;	
+	margin-top: 0.5em;	
 	padding: 0;
 }
 
@@ -453,7 +453,7 @@ nav>ul>li:hover {
 	height: 50px;
 	width: 50px;
 	margin-right: 0.8em;
-	margin-top: 2em;
+	margin-top: 0.5em;
 	background: url('../imagenes/es.png');
 	background-size: 50px 50px;
 	float: right;
@@ -474,7 +474,7 @@ nav>ul>li:hover {
 	height: 50px;
 	width: 50px;
 	margin-right: 0.2em;		
-	margin-top: 2em;
+	margin-top: 0.5em;
 	background: url('../imagenes/uk.png');
 	background-size: 50px 50px;
 	float: right;
@@ -500,6 +500,10 @@ nav>ul>li:hover {
 
 	#infoProyecto1, #infoProyecto2 {
 	vertical-align: 3em;
+	}
+
+	nav>ul, #botonRojo, #botonIzquierdo, #botonDerecho {
+		margin-top: 2em;	
 	}
 }
 
