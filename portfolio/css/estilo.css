@@ -7,6 +7,20 @@
        url('../fonts/sosa/sosa-regular-webfont.eot') format('eot');
 }
 
+@font-face{
+  font-family: 'play';
+  src: url('../fonts/play/Play-Regular.ttf') format('truetype'); 
+}
+
+@font-face{
+  font-family: 'play-bold';
+  src: url('../fonts/play/Play-Bold.ttf') format('truetype'); 
+}
+
+h2 {
+	font-family: 'play-bold';
+}
+
 *{
 	margin: 0px;
 	padding: 0px;
@@ -95,8 +109,6 @@ a {
 
 }
 
-
-
 #contenidoMonitorPrincipal {
 	display: none;
 	position: absolute;
@@ -114,7 +126,7 @@ a {
 	display: inline-block;
 	margin-top: 2.5em;
 	margin-left: 2.5em;
-	background: url('../imagenes/yo.png') no-repeat;	
+	background: url('../imagenes/yo2.png') no-repeat;	
 	background-size: contain;
 	width: 40%;
 	height: 40%;
@@ -125,11 +137,12 @@ a {
 	
 	margin: 1em 2.5em 1em;
 	height: 50px;
-	overflow: scroll;
-	overflow-x: hidden;
+	overflow: hidden;
 }
 
 p {
+	font-family: 'play';
+	font-size: 1.2em;
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
 
@@ -157,7 +170,7 @@ h3 {
 	line-height: 140%;
 	width: 1.5em;
 	height: 1.5em;
-	background-color: #1DA1F2;
+	background-color: #333333;
 	*z-index: 100;
 	font-family: 'sosa';
 	font-size: 1.5em;
@@ -174,7 +187,7 @@ h3 {
 
 #github {
 	line-height: 140%;
-	background-color: black;
+	background-color: #333333;
 	width: 1.5em;
 	height: 1.5em;
 	font-family: 'sosa';
@@ -196,7 +209,7 @@ h3 {
 	height: 1.5em;
 	font-family: 'sosa';
 	font-size: 1.5em;
-    background-color: #0077B5;
+    background-color: #333333;
 	
 }
 
@@ -221,7 +234,7 @@ h3 {
 	display: inline-block;
 	margin-top: 2.5em;
 	margin-left: 2.5em;
-	background: url('../imagenes/yo.png') no-repeat;	
+	background: url('../imagenes/yo2.png') no-repeat;	
 	background-size: contain;
 	width: 40%;
 	height: 40%;
@@ -257,15 +270,15 @@ h3 {
 	*background: url('../imagenes/monitorProyectos.png') no-repeat center center;
 	width: 100%;
 	height: 100%;	
-	margin-top: 1.4em;
-	margin-left: 1.5em;	
+	*margin-top: 1.4em;
+	*margin-left: 1.5em;	
 }
 
 #proyecto1, #proyecto2 {
 	display: inline-block;
 	height: 30%;
 	width: 90%;
-	margin-top: 2em;
+	margin-top: 3em;
 	
 }
 
@@ -327,8 +340,7 @@ h3 {
 #informacionCV {
 	
 	margin: 2em 2.5em 1em;
-	overflow: scroll;
-	overflow-x: hidden;
+	overflow: hidden;
 	height: 100px;
 	padding-top: 2em;
 	
@@ -348,7 +360,7 @@ h3 {
 	display: inline-block;
 	margin-top: 2.5em;
 	margin-left: 2.5em;
-	background: url('../imagenes/yo.png') no-repeat;	
+	background: url('../imagenes/yo2.png') no-repeat;	
 	background-size: contain;
 	width: 40%;
 	height: 40%;
@@ -358,8 +370,7 @@ h3 {
 #informacionContacto {
 	
 	margin: 1em 2.5em 1em;
-	overflow: scroll;
-	overflow-x: hidden;
+	overflow: hidden;
 	height: 50px;
 	
 }
@@ -383,6 +394,13 @@ h3 {
 	height: 10%;	
 	background: url('../imagenes/cabinaInferior.png') no-repeat;	
 	background-size: 100% 100%;
+}
+
+#cabinaCentral {
+	display: none;
+	background: url('../imagenes/cabinaCentral.png') no-repeat;
+	background-size: 93% 87%;
+	background-position: 1.6em 1.8em;
 }
 
 #panelControl {

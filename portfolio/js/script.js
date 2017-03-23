@@ -18,57 +18,76 @@
 
 	let mostrarPrincipal = function() {
 		document.getElementById("contenidoMonitor").style.height = "100%";
-		document.getElementById("contenidoMonitor").style.background = "url('imagenes/blanco.png')";
+		document.getElementById("contenidoMonitor").style.background = "url('imagenes/cabinaCentral2.png')";
+		document.getElementById("contenidoMonitor").style.backgroundSize = "cover";
 		document.getElementById("contenidoMonitorSobreMi").style.display = "none";
 		document.getElementById("contenidoMonitorProyectos").style.display = "none";
 		document.getElementById("contenidoMonitorCV").style.display = "none";
 		document.getElementById("contenidoMonitorContacto").style.display = "none";
 		document.getElementById("contenidoMonitorPrincipal").style.display = "inline-block";	
 		document.getElementById("monitorVacio").style.display = "inline-block";
+		document.getElementById("monitorVacio").style.background = "url('imagenes/cabinaCentral2.png') no-repeat";
+
 	}
 
 	let mostrarSobreMi = function() {
 		document.getElementById("contenidoMonitor").style.height = "100%";
-		document.getElementById("contenidoMonitor").style.background = "url('imagenes/blanco.png')";
+		document.getElementById("contenidoMonitor").style.background = "url('imagenes/cabinaCentral2.png')";
+		document.getElementById("contenidoMonitor").style.backgroundSize = "cover";
 		document.getElementById("contenidoMonitorPrincipal").style.display = "none";
 		document.getElementById("contenidoMonitorSobreMi").style.display = "inline-block";
 		document.getElementById("contenidoMonitorProyectos").style.display = "none";
 		document.getElementById("contenidoMonitorCV").style.display = "none";
 		document.getElementById("contenidoMonitorContacto").style.display = "none";
 		document.getElementById("contenidoMonitor").style.display = "inherit";
+		document.getElementById("monitorVacio").style.display = "inline-block";
+		document.getElementById("monitorVacio").style.background = "url('imagenes/cabinaCentral2.png') no-repeat";
+
 	}
 
 	let mostrarProyectos = function() {
 		document.getElementById("contenidoMonitor").style.height = "100%";
-		document.getElementById("contenidoMonitor").style.background = "url('imagenes/negro.png')";
+		document.getElementById("contenidoMonitor").style.background = "url('imagenes/cabinaCentral2.png')";
+		document.getElementById("contenidoMonitor").style.backgroundSize = "cover";
 		document.getElementById("contenidoMonitorPrincipal").style.display = "none";
 		document.getElementById("contenidoMonitorSobreMi").style.display = "none";
 		document.getElementById("contenidoMonitorProyectos").style.display = "inline-block";
 		document.getElementById("contenidoMonitorCV").style.display = "none";
 		document.getElementById("contenidoMonitorContacto").style.display = "none";
 		document.getElementById("contenidoMonitor").style.display = "inherit";
+		document.getElementById("monitorVacio").style.display = "inline-block";
+		document.getElementById("monitorVacio").style.background = "url('imagenes/cabinaCentral2.png') no-repeat";
+
 	}
 
 	let mostrarCV = function() {
 		document.getElementById("contenidoMonitor").style.height = "100%";
-		document.getElementById("contenidoMonitor").style.background = "url('imagenes/blanco.png')";
+		document.getElementById("contenidoMonitor").style.background = "url('imagenes/cabinaCentral2.png')";
+		document.getElementById("contenidoMonitor").style.backgroundSize = "cover";
 		document.getElementById("contenidoMonitorPrincipal").style.display = "none";
 		document.getElementById("contenidoMonitorSobreMi").style.display = "none";
 		document.getElementById("contenidoMonitorProyectos").style.display = "none";
 		document.getElementById("contenidoMonitorCV").style.display = "inline-block";
 		document.getElementById("contenidoMonitorContacto").style.display = "none";
 		document.getElementById("contenidoMonitor").style.display = "inherit";
+		document.getElementById("monitorVacio").style.display = "inline-block";
+		document.getElementById("monitorVacio").style.background = "url('imagenes/cabinaCentral2.png') no-repeat";
+
 	}
 
 	let mostrarContacto = function() {
 		document.getElementById("contenidoMonitor").style.height = "100%";
-		document.getElementById("contenidoMonitor").style.background = "url('imagenes/blanco.png')";
+		document.getElementById("contenidoMonitor").style.background = "url('imagenes/cabinaCentral2.png')";
+		document.getElementById("contenidoMonitor").style.backgroundSize = "cover";
 		document.getElementById("contenidoMonitorPrincipal").style.display = "none";
 		document.getElementById("contenidoMonitorSobreMi").style.display = "none";
 		document.getElementById("contenidoMonitorProyectos").style.display = "none";
 		document.getElementById("contenidoMonitorCV").style.display = "none";
 		document.getElementById("contenidoMonitorContacto").style.display = "inline-block";
 		document.getElementById("contenidoMonitor").style.display = "inherit";
+		document.getElementById("monitorVacio").style.display = "inline-block";
+		document.getElementById("monitorVacio").style.background = "url('imagenes/cabinaCentral2.png') no-repeat";
+
 	}
 
 	let mostrarEspacio = function() {
