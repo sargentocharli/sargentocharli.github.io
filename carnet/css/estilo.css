@@ -25,7 +25,7 @@ section {
 }
 
 #fotoAlumno {
-	background: url('../images/yo.JPG') no-repeat center center;
+	background: url('../images/yo.jpg') no-repeat center center;
 	background-size: contain;
 	width: 100%;
 	min-height: 10em;
